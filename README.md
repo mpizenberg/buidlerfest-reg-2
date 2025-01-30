@@ -14,6 +14,9 @@ To help a little bit anyone willing to try elm-cardano, I made a template web ap
 To compile and start the app locally, do the following:
 
 ```sh
+# Clone the repo, with the elm-cardano submodule
+git clone --recursive https://github.com/mpizenberg/buidlerfest-reg-2.git
+cd buidlerfest-reg-2
 # Install dependencies, compile and start the app in watch mode
 npm install && npm run watch
 ```
