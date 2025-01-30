@@ -17,8 +17,10 @@ To compile and start the app locally, do the following:
 # Clone the repo, with the elm-cardano submodule
 git clone --recursive https://github.com/mpizenberg/buidlerfest-reg-2.git
 cd buidlerfest-reg-2
-# Install dependencies, compile and start the app in watch mode
-npm install && npm run watch
+# Install dependencies and compile the app
+npm install && npm run make
+# Start the app in watch mode
+npm run watch
 ```
 
 Then all you have to do is follow the registration instructions to fill the `intents` function in the `src/Tx.elm` module:
