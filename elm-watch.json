@@ -1,0 +1,12 @@
+{
+    "postprocess": ["elm-cardano", "postprocess"],
+    "serve": "./static",
+    "targets": {
+        "main": {
+            "inputs": [
+                "src/Main.elm"
+            ],
+            "output": "static/main.js"
+        }
+    }
+}
